@@ -3,7 +3,7 @@ raspberry piを用いたサーバー室の温度測定を行い、定期的にSl
 また、異常時にもSlackへ通知を行う。
 ## 作成者の環境
 - Raspberry Pi 3B
-- 温湿度センサ モジュールDHT11（https://akizukidenshi.com/catalog/g/g107003/）
+- 温湿度センサ モジュールDHT11（ https://akizukidenshi.com/catalog/g/g107003/ ）
 ## 使い方
 ### DHT11とラズパイの接続
 - DHT11の1番：ラズパイの5V
@@ -14,4 +14,4 @@ raspberry piを用いたサーバー室の温度測定を行い、定期的にSl
 https://api.slack.com/messaging/webhooks
 
 ## 権利関係
-DHT11で測定したデータをPythonで用いるにあたって、https://github.com/szazo/DHT11_Python.gitのスクリプトを利用させていただきました。
+DHT11で測定したデータをPythonで用いるにあたって、 https://github.com/szazo/DHT11_Python.git のスクリプトを利用させていただきました。
